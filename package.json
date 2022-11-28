@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next --openssl-legacy-provider dev",
-    "build": "yarn run build",
-    "start": "next --openssl-legacy-provider start",
+    "build": "next build",
+    "start": "next start",
     "export": "next build && next export"
   },
   "dependencies": {
